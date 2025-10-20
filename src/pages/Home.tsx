@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroSection from '../components/home/HeroSection';
 import AboutSection from '../components/home/AboutSection';
 import SocialProof from '../components/home/SocialProof';
