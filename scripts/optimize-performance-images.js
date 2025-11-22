@@ -28,9 +28,6 @@ async function optimizePerformanceImages() {
             console.log(`✅ Created: ${outputName} (800x800 - Optimized)`);
         }
 
-        console.log('\n🎉 All performance images optimized!');
-        console.log('📊 Each image reduced from ~500KB to ~80-100KB');
-        console.log('💾 Total savings: ~80% smaller!');
     } catch (error) {
         console.error('❌ Error optimizing images:', error.message);
         console.error('\nMake sure picture1.jpg and picture2.jpg exist in:', inputDir);

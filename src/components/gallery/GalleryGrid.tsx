@@ -1,4 +1,3 @@
-import React from 'react';
 import GalleryItem from './GalleryItem';
 import { galleryImages } from '../../config/galleryImages';
 
