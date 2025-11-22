@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import picture1 from '../../../assets/picture1.jpg';
-import picture2 from '../../../assets/picture2.jpg';
+import picture1 from '../../../assets/optimized/picture1.webp';
+import picture2 from '../../../assets/optimized/picture2.webp';
 
 const images = [picture1, picture2];
 
