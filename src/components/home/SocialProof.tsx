@@ -1,4 +1,3 @@
-import React from 'react';
 import { Instagram, Youtube, Facebook, Star } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -25,9 +24,9 @@ export default function SocialProof() {
     <section className="relative py-20 bg-[#1A0B2E] overflow-hidden">
       {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#6B2FD9]/20 to-[#06B6D4]/20 animate-gradient-xy" />
-      
+
       <div className="container mx-auto px-4 relative z-10">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -37,7 +36,7 @@ export default function SocialProof() {
             Síguenos en Redes Sociales
           </h2>
           <div className="flex justify-center space-x-6">
-            <motion.a 
+            <motion.a
               href="https://www.instagram.com/estradasinternational01/"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,7 +45,7 @@ export default function SocialProof() {
             >
               <Instagram className="h-8 w-8" />
             </motion.a>
-            <motion.a 
+            <motion.a
               href="https://www.youtube.com/@eryestrada"
               target="_blank"
               rel="noopener noreferrer"
@@ -55,7 +54,7 @@ export default function SocialProof() {
             >
               <Youtube className="h-8 w-8" />
             </motion.a>
-            <motion.a 
+            <motion.a
               href="https://www.facebook.com/EstradasInternational"
               target="_blank"
               rel="noopener noreferrer"
